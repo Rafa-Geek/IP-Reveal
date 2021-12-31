@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Reveal</title>
+</head>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: rgb(0, 160, 0);
+    padding: 20px 0;
+}
+
+a{
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    font-size: 25pt;
+    margin: 10% 0;
+}
+
+.materias a{
+    text-align: center;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">IP Reveal</a></li>
+                <li><a href="/password-generator">Password Generator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="center">
+        <h2>What is my IP?</h2>
+        <br/>
+        <h2>🌐 Your Public IP is: <span style="color: green;">  {{ ip_local }} </span> </h2>
+        <h2>🔒 Your Private IP is: <span style="color: green;"> {{ ip_publico }} </span> </h2>
+    </div>
+
+
+    <div class="materias">
+        <a href="" style="color: black;">Como se proteger de Hackers na internet</a>
+        <br/>
+        <image src='https://www.infomoney.com.br/wp-content/uploads/2019/06/hacker-computador.jpg?fit=900%2C600&quality=70&strip=all' />
+    </div>
+
+
+</body>
+</html>
